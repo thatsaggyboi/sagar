@@ -5,7 +5,11 @@
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title>Finipay Admin Screen</title>
+   <title>Manage Users</title>
+
+    <!--- favicon
+    ================================================== -->
+    <link rel = "icon" href ="./img/favicon.ico" type = "image/x-icon"> 
    <!-- Bootstrap CSS CDN -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -19,7 +23,7 @@
 </head>
 
 <body class="admin-1">
-   <div class="wrapper">
+   <div class="wrapper wrapper--noflex">
       <!-- Sidebar  -->
       <nav id="sidebar" class="sidebar sidebar--kyc">
          <div class="sidebar__header">
@@ -113,10 +117,10 @@
                      <i class="fa fa-search search__button" aria-hidden="true"></i>
                    </button>
                  </div>
-                 <div class="user-management__add-new">
+                 <a class="user-management__add-new" href="./add-users.html">
                   <img src="./img/plus.svg" alt="plus" class="plus-icon">
                   <span class="add">Add New</span>
-                </div>
+                </a>
                </form>
                
              </div>
